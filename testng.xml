@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="Utility.Listener_report"/>
+    </listeners>
+    <test thread-count="5" name="Test1">
+    <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+            <class name="Test.urltest"/>
+            <class name="Test.Signuptest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Test2">
+    <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+        	<class name="Test.LoginTest"/>
+            <class name="Test.Topmenutest"/>
+        </classes>
+    </test>
+    
+    <test thread-count="5" name="Test3">
+    <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+            <class name="Test.Bottomlinktest"/>
+            <class name="Test.Searchbtncarttest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Test4">
+    <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+        	<class name="Test.Selectbydepartmenttest"/>
+            <class name="Test.Selectbybrandtest"/>
+            
+        </classes>
+    </test>
+    <test thread-count="5" name="Test5">
+    <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+            <class name="Test.Checkouttest"/>
+        </classes>
+    </test>
+</suite>

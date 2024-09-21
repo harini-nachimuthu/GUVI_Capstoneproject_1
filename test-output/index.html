@@ -1,0 +1,1663 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\harin\eclipse-workspace\Capstone_1\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">39 methods, 2 failed,   37 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.LoginTest" class="method navigator-link" hash-for-method="logintest(arun@gmail.com, Validation@246810, //h1[.=&#039;Verify Your Account&#039;], Verify Your Account)">logintest(arun@gmail.com, Validation@246810, //h1[.='Verify Your Account'], Verify Your Account)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Signuptest" class="method navigator-link" hash-for-method="signup(Arun6, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012351E9, //p[normalize-space()...)">signup(Arun6, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012351E9, //p[normalize-space()...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Searchbtncarttest" class="method navigator-link" hash-for-method="addtocart">addtocart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Selectbydepartmenttest" class="method navigator-link" hash-for-method="addtocart">addtocart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Bottomlinktest" class="method navigator-link" hash-for-method="bottommenu(//a[normalize-space()=&#039;Targeted Advertising Opt Out&#039;], Start Request - Best Buy)">bottommenu(//a[normalize-space()='Targeted Advertising Opt Out'], Start Request - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Bottomlinktest" class="method navigator-link" hash-for-method="bottommenu(//a[normalize-space()=&#039;Privacy&#039;], Privacy Policy Hub - Best Buy)">bottommenu(//a[normalize-space()='Privacy'], Privacy Policy Hub - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Bottomlinktest" class="method navigator-link" hash-for-method="bottommenu(//a[normalize-space()=&#039;CA Supply Chain Transparency Act&#039;], California Supply Chain Transparency Act ...)">bottommenu(//a[normalize-space()='CA Supply Chain Transparency Act'], California Supply Chain Transparency Act ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Bottomlinktest" class="method navigator-link" hash-for-method="bottommenu(//a[normalize-space()=&#039;Limit Use of My Sensitive Personal Information&#039;], Best Buy)">bottommenu(//a[normalize-space()='Limit Use of My Sensitive Personal Information'], Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Bottomlinktest" class="method navigator-link" hash-for-method="bottommenu(//a[normalize-space()=&#039;Health Data Privacy&#039;], Health Data Privacy Information - Best Buy)">bottommenu(//a[normalize-space()='Health Data Privacy'], Health Data Privacy Information - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Bottomlinktest" class="method navigator-link" hash-for-method="bottommenu(//a[normalize-space()=&#039;Accessibility&#039;], Accessibility - Best Buy)">bottommenu(//a[normalize-space()='Accessibility'], Accessibility - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Bottomlinktest" class="method navigator-link" hash-for-method="bottommenu(//a[normalize-space()=&#039;Do Not Sell/Share My Personal Information&#039;], Start Request - Best Buy)">bottommenu(//a[normalize-space()='Do Not Sell/Share My Personal Information'], Start Request - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Bottomlinktest" class="method navigator-link" hash-for-method="bottommenu(//a[normalize-space()=&#039;Terms &amp; Conditions&#039;], BestBuy.com Terms and Conditions)">bottommenu(//a[normalize-space()='Terms & Conditions'], BestBuy.com Terms and Conditions)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Bottomlinktest" class="method navigator-link" hash-for-method="bottommenu(//a[normalize-space()=&#039;Interest-Based Ads&#039;], Interest-Based Ads - Best Buy)">bottommenu(//a[normalize-space()='Interest-Based Ads'], Interest-Based Ads - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Bottomlinktest" class="method navigator-link" hash-for-method="bottommenu(//a[normalize-space()=&#039;State Privacy Rights&#039;], State Privacy Rights - Best Buy)">bottommenu(//a[normalize-space()='State Privacy Rights'], State Privacy Rights - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Selectbybrandtest" class="method navigator-link" hash-for-method="brandproduvtselect">brandproduvtselect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.urltest" class="method navigator-link" hash-for-method="brokencurrenturl">brokencurrenturl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Checkouttest" class="method navigator-link" hash-for-method="checkout">checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.LoginTest" class="method navigator-link" hash-for-method="logintest(arun@gmail.com, , //p[normalize-space()=&#039;Please enter your password.&#039;], Please enter your password.)">logintest(arun@gmail.com, , //p[normalize-space()='Please enter your password.'], Please enter your password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.LoginTest" class="method navigator-link" hash-for-method="logintest(arun@gmail.com, Validation@246810, //strong[normalize-space()=&#039;Sorry, something went wrong. Please t...)">logintest(arun@gmail.com, Validation@246810, //strong[normalize-space()='Sorry, something went wrong. Please t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.LoginTest" class="method navigator-link" hash-for-method="logintest(, Validation@246810, //p[normalize-space()=&#039;Please enter a valid email address.&#039;], Please enter a va...)">logintest(, Validation@246810, //p[normalize-space()='Please enter a valid email address.'], Please enter a va...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Signuptest" class="method navigator-link" hash-for-method="signup(Arun1, , arun@gmail.com, Validation@246810, Validation@246810, 6.789012346E9, //p[normalize-space()=...)">signup(Arun1, , arun@gmail.com, Validation@246810, Validation@246810, 6.789012346E9, //p[normalize-space()=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Signuptest" class="method navigator-link" hash-for-method="signup(Arun7, K, arun@gmail.com, , Validation@246810, 6.789012352E9, //p[normalize-space()=&#039;Please enter a ...)">signup(Arun7, K, arun@gmail.com, , Validation@246810, 6.789012352E9, //p[normalize-space()='Please enter a ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Signuptest" class="method navigator-link" hash-for-method="signup(Arun3, K, arun@gmail.com, Validation@246810, Validation@246, 6.789012348E9, //p[normalize-space()=&#039;P...)">signup(Arun3, K, arun@gmail.com, Validation@246810, Validation@246, 6.789012348E9, //p[normalize-space()='P...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Signuptest" class="method navigator-link" hash-for-method="signup(Arun5, K, arun@gmail.com, Validation@246810, Validation@246810, 67890.0, //p[normalize-space()=&#039;Plea...)">signup(Arun5, K, arun@gmail.com, Validation@246810, Validation@246810, 67890.0, //p[normalize-space()='Plea...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Signuptest" class="method navigator-link" hash-for-method="signup(Arun8, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012353E9, //strong[normalize-sp...)">signup(Arun8, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012353E9, //strong[normalize-sp...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Signuptest" class="method navigator-link" hash-for-method="signup(Arun4, K, arun@gmail.com, Va, Va, 6.789012349E9, //p[normalize-space()=&#039;Please enter a strong passwo...)">signup(Arun4, K, arun@gmail.com, Va, Va, 6.789012349E9, //p[normalize-space()='Please enter a strong passwo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Signuptest" class="method navigator-link" hash-for-method="signup(, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012345E9, //p[normalize-space()=&#039;Ple...)">signup(, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012345E9, //p[normalize-space()='Ple...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Signuptest" class="method navigator-link" hash-for-method="signup(Arun2, K, arun@gmail, Validation@246810, Validation@246810, 6.789012347E9, //p[normalize-space()=&#039;Pl...)">signup(Arun2, K, arun@gmail, Validation@246810, Validation@246810, 6.789012347E9, //p[normalize-space()='Pl...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Topmenutest" class="method navigator-link" hash-for-method="tomenu((//a[.=&#039;Best Buy Business&#039;])[1], Best Buy for Business - Best Buy)">tomenu((//a[.='Best Buy Business'])[1], Best Buy for Business - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Topmenutest" class="method navigator-link" hash-for-method="tomenu((//a[normalize-space()=&#039;Best Buy Outlet&#039;])[1], Best Buy Outlet: Clearance Electronics Outlet Store –...)">tomenu((//a[normalize-space()='Best Buy Outlet'])[1], Best Buy Outlet: Clearance Electronics Outlet Store –...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Topmenutest" class="method navigator-link" hash-for-method="tomenu(//a[@class=&#039;utility-menu-flyout-list-item&#039;][.=&#039;Gift Cards&#039;][1], Gifts Cards and E-Gift Cards - Best ...)">tomenu(//a[@class='utility-menu-flyout-list-item'][.='Gift Cards'][1], Gifts Cards and E-Gift Cards - Best ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Topmenutest" class="method navigator-link" hash-for-method="tomenu((//a[normalize-space()=&#039;Top Deals&#039;])[1], Best Buy Top Deals)">tomenu((//a[normalize-space()='Top Deals'])[1], Best Buy Top Deals)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Topmenutest" class="method navigator-link" hash-for-method="tomenu(//a[.=&#039;Deal of the Day&#039;][1], Deal of the Day: Electronics Deals - Best Buy)">tomenu(//a[.='Deal of the Day'][1], Deal of the Day: Electronics Deals - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Topmenutest" class="method navigator-link" hash-for-method="tomenu((//a[@class=&#039;bottom-left-links &#039;][.=&#039;My Best Buy Memberships&#039;])[1], My Best Buy Memberships)">tomenu((//a[@class='bottom-left-links '][.='My Best Buy Memberships'])[1], My Best Buy Memberships)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Topmenutest" class="method navigator-link" hash-for-method="tomenu(//a[@class=&#039;utility-menu-flyout-list-item&#039;][.=&#039;Credit Cards&#039;][1], Best Buy Credit Card: Rewards &amp; Fi...)">tomenu(//a[@class='utility-menu-flyout-list-item'][.='Credit Cards'][1], Best Buy Credit Card: Rewards & Fi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Topmenutest" class="method navigator-link" hash-for-method="tomenu(//span[.=&#039;Cart&#039;], Cart - Best Buy)">tomenu(//span[.='Cart'], Cart - Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Topmenutest" class="method navigator-link" hash-for-method="tomenu(//a[.=&#039;Yes, Best Buy Sells That&#039;][1], Yes, Best Buy Sells That – Best Buy)">tomenu(//a[.='Yes, Best Buy Sells That'][1], Yes, Best Buy Sells That – Best Buy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Topmenutest" class="method navigator-link" hash-for-method="tomenu(//a[@class=&#039;utility-menu-flyout-list-item&#039;][.=&#039;Gift Ideas&#039;][1], Gift Ideas 2024: Best Gifts to Give ...)">tomenu(//a[@class='utility-menu-flyout-list-item'][.='Gift Ideas'][1], Gift Ideas 2024: Best Gifts to Give ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.Topmenutest" class="method navigator-link" hash-for-method="tomenu((//a[@class=&#039;universal-nav-link&#039;][normalize-space()=&#039;Connect with an Expert&#039;])[1], Shop with an Expe...)">tomenu((//a[@class='universal-nav-link'][normalize-space()='Connect with an Expert'])[1], Shop with an Expe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test.Signuptest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signup(Arun6, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012351E9, //p[normalize-space()...)">
+                  </a> <!-- signup(Arun6, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012351E9, //p[normalize-space()...) -->
+                  <span class="method-name">signup</span>
+                  <span class="parameters">(Arun6,K,arun@gmail.com,Validation@246810,Validation@246810,6.789012351E9,//p[normalize-space()='Please enter a valid email address.'],Please enter a valid email address.)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()=&apos;Please enter a valid email address.&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59728/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e285cc12fcfa79aacd87d800957add8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Utility.utils.actandexpec(utils.java:174)
+	at Test.Signuptest.signup(Signuptest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Signup Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logintest(arun@gmail.com, Validation@246810, //h1[.=&#039;Verify Your Account&#039;], Verify Your Account)">
+                  </a> <!-- logintest(arun@gmail.com, Validation@246810, //h1[.='Verify Your Account'], Verify Your Account) -->
+                  <span class="method-name">logintest</span>
+                  <span class="parameters">(arun@gmail.com,Validation@246810,//h1[.='Verify Your Account'],Verify Your Account)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[.=&apos;Verify Your Account&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60806}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60806/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f432a89bf944edf5a17adbc3ae0c9f64
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Utility.utils.actandexpec(utils.java:174)
+	at Test.LoginTest.logintest(LoginTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.Topmenutest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tomenu((//a[.=&#039;Best Buy Business&#039;])[1], Best Buy for Business - Best Buy)">
+                  </a> <!-- tomenu((//a[.='Best Buy Business'])[1], Best Buy for Business - Best Buy) -->
+                  <span class="method-name">tomenu</span>
+                  <span class="parameters">((//a[.='Best Buy Business'])[1],Best Buy for Business - Best Buy)</span>
+                  <em>
+(Top buttons in url check)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tomenu((//a[normalize-space()=&#039;Best Buy Outlet&#039;])[1], Best Buy Outlet: Clearance Electronics Outlet Store –...)">
+                  </a> <!-- tomenu((//a[normalize-space()='Best Buy Outlet'])[1], Best Buy Outlet: Clearance Electronics Outlet Store –...) -->
+                  <span class="method-name">tomenu</span>
+                  <span class="parameters">((//a[normalize-space()='Best Buy Outlet'])[1],Best Buy Outlet: Clearance Electronics Outlet Store – Best Buy)</span>
+                  <em>
+(Top buttons in url check)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tomenu(//a[@class=&#039;utility-menu-flyout-list-item&#039;][.=&#039;Gift Cards&#039;][1], Gifts Cards and E-Gift Cards - Best ...)">
+                  </a> <!-- tomenu(//a[@class='utility-menu-flyout-list-item'][.='Gift Cards'][1], Gifts Cards and E-Gift Cards - Best ...) -->
+                  <span class="method-name">tomenu</span>
+                  <span class="parameters">(//a[@class='utility-menu-flyout-list-item'][.='Gift Cards'][1],Gifts Cards and E-Gift Cards - Best Buy)</span>
+                  <em>
+(Top buttons in url check)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tomenu((//a[normalize-space()=&#039;Top Deals&#039;])[1], Best Buy Top Deals)">
+                  </a> <!-- tomenu((//a[normalize-space()='Top Deals'])[1], Best Buy Top Deals) -->
+                  <span class="method-name">tomenu</span>
+                  <span class="parameters">((//a[normalize-space()='Top Deals'])[1],Best Buy Top Deals)</span>
+                  <em>
+(Top buttons in url check)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tomenu(//a[.=&#039;Deal of the Day&#039;][1], Deal of the Day: Electronics Deals - Best Buy)">
+                  </a> <!-- tomenu(//a[.='Deal of the Day'][1], Deal of the Day: Electronics Deals - Best Buy) -->
+                  <span class="method-name">tomenu</span>
+                  <span class="parameters">(//a[.='Deal of the Day'][1],Deal of the Day: Electronics Deals - Best Buy)</span>
+                  <em>
+(Top buttons in url check)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tomenu((//a[@class=&#039;bottom-left-links &#039;][.=&#039;My Best Buy Memberships&#039;])[1], My Best Buy Memberships)">
+                  </a> <!-- tomenu((//a[@class='bottom-left-links '][.='My Best Buy Memberships'])[1], My Best Buy Memberships) -->
+                  <span class="method-name">tomenu</span>
+                  <span class="parameters">((//a[@class='bottom-left-links '][.='My Best Buy Memberships'])[1],My Best Buy Memberships)</span>
+                  <em>
+(Top buttons in url check)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tomenu(//a[@class=&#039;utility-menu-flyout-list-item&#039;][.=&#039;Credit Cards&#039;][1], Best Buy Credit Card: Rewards &amp; Fi...)">
+                  </a> <!-- tomenu(//a[@class='utility-menu-flyout-list-item'][.='Credit Cards'][1], Best Buy Credit Card: Rewards & Fi...) -->
+                  <span class="method-name">tomenu</span>
+                  <span class="parameters">(//a[@class='utility-menu-flyout-list-item'][.='Credit Cards'][1],Best Buy Credit Card: Rewards & Financing)</span>
+                  <em>
+(Top buttons in url check)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tomenu(//span[.=&#039;Cart&#039;], Cart - Best Buy)">
+                  </a> <!-- tomenu(//span[.='Cart'], Cart - Best Buy) -->
+                  <span class="method-name">tomenu</span>
+                  <span class="parameters">(//span[.='Cart'],Cart - Best Buy)</span>
+                  <em>
+(Top buttons in url check)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tomenu(//a[.=&#039;Yes, Best Buy Sells That&#039;][1], Yes, Best Buy Sells That – Best Buy)">
+                  </a> <!-- tomenu(//a[.='Yes, Best Buy Sells That'][1], Yes, Best Buy Sells That – Best Buy) -->
+                  <span class="method-name">tomenu</span>
+                  <span class="parameters">(//a[.='Yes, Best Buy Sells That'][1],Yes, Best Buy Sells That – Best Buy)</span>
+                  <em>
+(Top buttons in url check)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tomenu(//a[@class=&#039;utility-menu-flyout-list-item&#039;][.=&#039;Gift Ideas&#039;][1], Gift Ideas 2024: Best Gifts to Give ...)">
+                  </a> <!-- tomenu(//a[@class='utility-menu-flyout-list-item'][.='Gift Ideas'][1], Gift Ideas 2024: Best Gifts to Give ...) -->
+                  <span class="method-name">tomenu</span>
+                  <span class="parameters">(//a[@class='utility-menu-flyout-list-item'][.='Gift Ideas'][1],Gift Ideas 2024: Best Gifts to Give This Year - Best Buy)</span>
+                  <em>
+(Top buttons in url check)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tomenu((//a[@class=&#039;universal-nav-link&#039;][normalize-space()=&#039;Connect with an Expert&#039;])[1], Shop with an Expe...)">
+                  </a> <!-- tomenu((//a[@class='universal-nav-link'][normalize-space()='Connect with an Expert'])[1], Shop with an Expe...) -->
+                  <span class="method-name">tomenu</span>
+                  <span class="parameters">((//a[@class='universal-nav-link'][normalize-space()='Connect with an Expert'])[1],Shop with an Expert - Best Buy)</span>
+                  <em>
+(Top buttons in url check)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.Signuptest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signup(Arun1, , arun@gmail.com, Validation@246810, Validation@246810, 6.789012346E9, //p[normalize-space()=...)">
+                  </a> <!-- signup(Arun1, , arun@gmail.com, Validation@246810, Validation@246810, 6.789012346E9, //p[normalize-space()=...) -->
+                  <span class="method-name">signup</span>
+                  <span class="parameters">(Arun1,,arun@gmail.com,Validation@246810,Validation@246810,6.789012346E9,//p[normalize-space()='Please enter your last name.'],Please enter your last name.)</span>
+                  <em>
+(Signup Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signup(Arun7, K, arun@gmail.com, , Validation@246810, 6.789012352E9, //p[normalize-space()=&#039;Please enter a ...)">
+                  </a> <!-- signup(Arun7, K, arun@gmail.com, , Validation@246810, 6.789012352E9, //p[normalize-space()='Please enter a ...) -->
+                  <span class="method-name">signup</span>
+                  <span class="parameters">(Arun7,K,arun@gmail.com,,Validation@246810,6.789012352E9,//p[normalize-space()='Please enter a strong password.'],Please enter a strong password.)</span>
+                  <em>
+(Signup Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signup(Arun3, K, arun@gmail.com, Validation@246810, Validation@246, 6.789012348E9, //p[normalize-space()=&#039;P...)">
+                  </a> <!-- signup(Arun3, K, arun@gmail.com, Validation@246810, Validation@246, 6.789012348E9, //p[normalize-space()='P...) -->
+                  <span class="method-name">signup</span>
+                  <span class="parameters">(Arun3,K,arun@gmail.com,Validation@246810,Validation@246,6.789012348E9,//p[normalize-space()='Passwords do not match.'],Passwords do not match.)</span>
+                  <em>
+(Signup Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signup(Arun5, K, arun@gmail.com, Validation@246810, Validation@246810, 67890.0, //p[normalize-space()=&#039;Plea...)">
+                  </a> <!-- signup(Arun5, K, arun@gmail.com, Validation@246810, Validation@246810, 67890.0, //p[normalize-space()='Plea...) -->
+                  <span class="method-name">signup</span>
+                  <span class="parameters">(Arun5,K,arun@gmail.com,Validation@246810,Validation@246810,67890.0,//p[normalize-space()='Please enter a valid mobile phone number.'],Please enter a valid mobile phone number.)</span>
+                  <em>
+(Signup Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signup(Arun8, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012353E9, //strong[normalize-sp...)">
+                  </a> <!-- signup(Arun8, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012353E9, //strong[normalize-sp...) -->
+                  <span class="method-name">signup</span>
+                  <span class="parameters">(Arun8,K,arun@gmail.com,Validation@246810,Validation@246810,6.789012353E9,//strong[normalize-space()='Sorry, there was a problem creating your account.'],Sorry, there was a problem creating your account.)</span>
+                  <em>
+(Signup Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signup(Arun4, K, arun@gmail.com, Va, Va, 6.789012349E9, //p[normalize-space()=&#039;Please enter a strong passwo...)">
+                  </a> <!-- signup(Arun4, K, arun@gmail.com, Va, Va, 6.789012349E9, //p[normalize-space()='Please enter a strong passwo...) -->
+                  <span class="method-name">signup</span>
+                  <span class="parameters">(Arun4,K,arun@gmail.com,Va,Va,6.789012349E9,//p[normalize-space()='Please enter a strong password.'],Please enter a strong password.)</span>
+                  <em>
+(Signup Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signup(, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012345E9, //p[normalize-space()=&#039;Ple...)">
+                  </a> <!-- signup(, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012345E9, //p[normalize-space()='Ple...) -->
+                  <span class="method-name">signup</span>
+                  <span class="parameters">(,K,arun@gmail.com,Validation@246810,Validation@246810,6.789012345E9,//p[normalize-space()='Please enter your first name.'],Please enter your first name.)</span>
+                  <em>
+(Signup Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signup(Arun2, K, arun@gmail, Validation@246810, Validation@246810, 6.789012347E9, //p[normalize-space()=&#039;Pl...)">
+                  </a> <!-- signup(Arun2, K, arun@gmail, Validation@246810, Validation@246810, 6.789012347E9, //p[normalize-space()='Pl...) -->
+                  <span class="method-name">signup</span>
+                  <span class="parameters">(Arun2,K,arun@gmail,Validation@246810,Validation@246810,6.789012347E9,//p[normalize-space()='Please enter a valid email address.'],Please enter a valid email address.)</span>
+                  <em>
+(Signup Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.urltest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="brokencurrenturl">
+                  </a> <!-- brokencurrenturl -->
+                  <span class="method-name">brokencurrenturl</span>
+                  <em>
+(Checking url is broken or not)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.Checkouttest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkout">
+                  </a> <!-- checkout -->
+                  <span class="method-name">checkout</span>
+                  <em>
+(Searching product through department and adding them to cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.Selectbydepartmenttest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addtocart">
+                  </a> <!-- addtocart -->
+                  <span class="method-name">addtocart</span>
+                  <em>
+(Searching product through department and adding them to cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logintest(arun@gmail.com, , //p[normalize-space()=&#039;Please enter your password.&#039;], Please enter your password.)">
+                  </a> <!-- logintest(arun@gmail.com, , //p[normalize-space()='Please enter your password.'], Please enter your password.) -->
+                  <span class="method-name">logintest</span>
+                  <span class="parameters">(arun@gmail.com,,//p[normalize-space()='Please enter your password.'],Please enter your password.)</span>
+                  <em>
+(Login test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logintest(arun@gmail.com, Validation@246810, //strong[normalize-space()=&#039;Sorry, something went wrong. Please t...)">
+                  </a> <!-- logintest(arun@gmail.com, Validation@246810, //strong[normalize-space()='Sorry, something went wrong. Please t...) -->
+                  <span class="method-name">logintest</span>
+                  <span class="parameters">(arun@gmail.com,Validation@246810,//strong[normalize-space()='Sorry, something went wrong. Please try again.'],Sorry, something went wrong. Please try again.)</span>
+                  <em>
+(Login test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logintest(, Validation@246810, //p[normalize-space()=&#039;Please enter a valid email address.&#039;], Please enter a va...)">
+                  </a> <!-- logintest(, Validation@246810, //p[normalize-space()='Please enter a valid email address.'], Please enter a va...) -->
+                  <span class="method-name">logintest</span>
+                  <span class="parameters">(,Validation@246810,//p[normalize-space()='Please enter a valid email address.'],Please enter a valid email address.)</span>
+                  <em>
+(Login test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.Bottomlinktest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bottommenu(//a[normalize-space()=&#039;Targeted Advertising Opt Out&#039;], Start Request - Best Buy)">
+                  </a> <!-- bottommenu(//a[normalize-space()='Targeted Advertising Opt Out'], Start Request - Best Buy) -->
+                  <span class="method-name">bottommenu</span>
+                  <span class="parameters">(//a[normalize-space()='Targeted Advertising Opt Out'],Start Request - Best Buy)</span>
+                  <em>
+(Bottom buttons in url test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bottommenu(//a[normalize-space()=&#039;Privacy&#039;], Privacy Policy Hub - Best Buy)">
+                  </a> <!-- bottommenu(//a[normalize-space()='Privacy'], Privacy Policy Hub - Best Buy) -->
+                  <span class="method-name">bottommenu</span>
+                  <span class="parameters">(//a[normalize-space()='Privacy'],Privacy Policy Hub - Best Buy)</span>
+                  <em>
+(Bottom buttons in url test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bottommenu(//a[normalize-space()=&#039;CA Supply Chain Transparency Act&#039;], California Supply Chain Transparency Act ...)">
+                  </a> <!-- bottommenu(//a[normalize-space()='CA Supply Chain Transparency Act'], California Supply Chain Transparency Act ...) -->
+                  <span class="method-name">bottommenu</span>
+                  <span class="parameters">(//a[normalize-space()='CA Supply Chain Transparency Act'],California Supply Chain Transparency Act - Best Buy)</span>
+                  <em>
+(Bottom buttons in url test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bottommenu(//a[normalize-space()=&#039;Limit Use of My Sensitive Personal Information&#039;], Best Buy)">
+                  </a> <!-- bottommenu(//a[normalize-space()='Limit Use of My Sensitive Personal Information'], Best Buy) -->
+                  <span class="method-name">bottommenu</span>
+                  <span class="parameters">(//a[normalize-space()='Limit Use of My Sensitive Personal Information'],Best Buy)</span>
+                  <em>
+(Bottom buttons in url test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bottommenu(//a[normalize-space()=&#039;Health Data Privacy&#039;], Health Data Privacy Information - Best Buy)">
+                  </a> <!-- bottommenu(//a[normalize-space()='Health Data Privacy'], Health Data Privacy Information - Best Buy) -->
+                  <span class="method-name">bottommenu</span>
+                  <span class="parameters">(//a[normalize-space()='Health Data Privacy'],Health Data Privacy Information - Best Buy)</span>
+                  <em>
+(Bottom buttons in url test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bottommenu(//a[normalize-space()=&#039;Accessibility&#039;], Accessibility - Best Buy)">
+                  </a> <!-- bottommenu(//a[normalize-space()='Accessibility'], Accessibility - Best Buy) -->
+                  <span class="method-name">bottommenu</span>
+                  <span class="parameters">(//a[normalize-space()='Accessibility'],Accessibility - Best Buy)</span>
+                  <em>
+(Bottom buttons in url test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bottommenu(//a[normalize-space()=&#039;Do Not Sell/Share My Personal Information&#039;], Start Request - Best Buy)">
+                  </a> <!-- bottommenu(//a[normalize-space()='Do Not Sell/Share My Personal Information'], Start Request - Best Buy) -->
+                  <span class="method-name">bottommenu</span>
+                  <span class="parameters">(//a[normalize-space()='Do Not Sell/Share My Personal Information'],Start Request - Best Buy)</span>
+                  <em>
+(Bottom buttons in url test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bottommenu(//a[normalize-space()=&#039;Terms &amp; Conditions&#039;], BestBuy.com Terms and Conditions)">
+                  </a> <!-- bottommenu(//a[normalize-space()='Terms & Conditions'], BestBuy.com Terms and Conditions) -->
+                  <span class="method-name">bottommenu</span>
+                  <span class="parameters">(//a[normalize-space()='Terms & Conditions'],BestBuy.com Terms and Conditions)</span>
+                  <em>
+(Bottom buttons in url test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bottommenu(//a[normalize-space()=&#039;Interest-Based Ads&#039;], Interest-Based Ads - Best Buy)">
+                  </a> <!-- bottommenu(//a[normalize-space()='Interest-Based Ads'], Interest-Based Ads - Best Buy) -->
+                  <span class="method-name">bottommenu</span>
+                  <span class="parameters">(//a[normalize-space()='Interest-Based Ads'],Interest-Based Ads - Best Buy)</span>
+                  <em>
+(Bottom buttons in url test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bottommenu(//a[normalize-space()=&#039;State Privacy Rights&#039;], State Privacy Rights - Best Buy)">
+                  </a> <!-- bottommenu(//a[normalize-space()='State Privacy Rights'], State Privacy Rights - Best Buy) -->
+                  <span class="method-name">bottommenu</span>
+                  <span class="parameters">(//a[normalize-space()='State Privacy Rights'],State Privacy Rights - Best Buy)</span>
+                  <em>
+(Bottom buttons in url test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.Selectbybrandtest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="brandproduvtselect">
+                  </a> <!-- brandproduvtselect -->
+                  <span class="method-name">brandproduvtselect</span>
+                  <em>
+(Searching product by brand and adding them to cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.Searchbtncarttest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addtocart">
+                  </a> <!-- addtocart -->
+                  <span class="method-name">addtocart</span>
+                  <em>
+(Searching items are added to cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\harin\eclipse-workspace\Capstone_1\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utility.Listener_report&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.urltest&quot;/&gt;
+      &lt;class name=&quot;Test.Signuptest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.LoginTest&quot;/&gt;
+      &lt;class name=&quot;Test.Topmenutest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test3&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.Bottomlinktest&quot;/&gt;
+      &lt;class name=&quot;Test.Searchbtncarttest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test3 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test4&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.Selectbydepartmenttest&quot;/&gt;
+      &lt;class name=&quot;Test.Selectbybrandtest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test4 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test5&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.Checkouttest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test5 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test3 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test4 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test5 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addtocart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">bottommenu</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">brandproduvtselect</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">brokencurrenturl</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">logintest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">signup</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tomenu</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(39);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'signup')
+data.setCell(0, 2, 'Test.Signuptest')
+data.setCell(0, 3, 53470);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'logintest')
+data.setCell(1, 2, 'Test.LoginTest')
+data.setCell(1, 3, 48837);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkout')
+data.setCell(2, 2, 'Test.Checkouttest')
+data.setCell(2, 3, 41724);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addtocart')
+data.setCell(3, 2, 'Test.Searchbtncarttest')
+data.setCell(3, 3, 32127);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addtocart')
+data.setCell(4, 2, 'Test.Selectbydepartmenttest')
+data.setCell(4, 3, 30998);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tomenu')
+data.setCell(5, 2, 'Test.Topmenutest')
+data.setCell(5, 3, 27175);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tomenu')
+data.setCell(6, 2, 'Test.Topmenutest')
+data.setCell(6, 3, 27043);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tomenu')
+data.setCell(7, 2, 'Test.Topmenutest')
+data.setCell(7, 3, 26455);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'signup')
+data.setCell(8, 2, 'Test.Signuptest')
+data.setCell(8, 3, 25794);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'brandproduvtselect')
+data.setCell(9, 2, 'Test.Selectbybrandtest')
+data.setCell(9, 3, 22059);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'signup')
+data.setCell(10, 2, 'Test.Signuptest')
+data.setCell(10, 3, 19349);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'tomenu')
+data.setCell(11, 2, 'Test.Topmenutest')
+data.setCell(11, 3, 19346);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'logintest')
+data.setCell(12, 2, 'Test.LoginTest')
+data.setCell(12, 3, 17632);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'signup')
+data.setCell(13, 2, 'Test.Signuptest')
+data.setCell(13, 3, 15338);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'signup')
+data.setCell(14, 2, 'Test.Signuptest')
+data.setCell(14, 3, 13908);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'logintest')
+data.setCell(15, 2, 'Test.LoginTest')
+data.setCell(15, 3, 12882);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'signup')
+data.setCell(16, 2, 'Test.Signuptest')
+data.setCell(16, 3, 12692);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'signup')
+data.setCell(17, 2, 'Test.Signuptest')
+data.setCell(17, 3, 12154);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'tomenu')
+data.setCell(18, 2, 'Test.Topmenutest')
+data.setCell(18, 3, 11944);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'logintest')
+data.setCell(19, 2, 'Test.LoginTest')
+data.setCell(19, 3, 11795);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'tomenu')
+data.setCell(20, 2, 'Test.Topmenutest')
+data.setCell(20, 3, 11475);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'signup')
+data.setCell(21, 2, 'Test.Signuptest')
+data.setCell(21, 3, 11359);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'signup')
+data.setCell(22, 2, 'Test.Signuptest')
+data.setCell(22, 3, 11358);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'tomenu')
+data.setCell(23, 2, 'Test.Topmenutest')
+data.setCell(23, 3, 11076);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'tomenu')
+data.setCell(24, 2, 'Test.Topmenutest')
+data.setCell(24, 3, 10982);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'tomenu')
+data.setCell(25, 2, 'Test.Topmenutest')
+data.setCell(25, 3, 10766);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'tomenu')
+data.setCell(26, 2, 'Test.Topmenutest')
+data.setCell(26, 3, 10361);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'tomenu')
+data.setCell(27, 2, 'Test.Topmenutest')
+data.setCell(27, 3, 10056);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'bottommenu')
+data.setCell(28, 2, 'Test.Bottomlinktest')
+data.setCell(28, 3, 8503);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'brokencurrenturl')
+data.setCell(29, 2, 'Test.urltest')
+data.setCell(29, 3, 8271);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'bottommenu')
+data.setCell(30, 2, 'Test.Bottomlinktest')
+data.setCell(30, 3, 7554);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'bottommenu')
+data.setCell(31, 2, 'Test.Bottomlinktest')
+data.setCell(31, 3, 7053);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'bottommenu')
+data.setCell(32, 2, 'Test.Bottomlinktest')
+data.setCell(32, 3, 6922);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'bottommenu')
+data.setCell(33, 2, 'Test.Bottomlinktest')
+data.setCell(33, 3, 6633);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'bottommenu')
+data.setCell(34, 2, 'Test.Bottomlinktest')
+data.setCell(34, 3, 6274);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'bottommenu')
+data.setCell(35, 2, 'Test.Bottomlinktest')
+data.setCell(35, 3, 6202);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'bottommenu')
+data.setCell(36, 2, 'Test.Bottomlinktest')
+data.setCell(36, 3, 6089);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'bottommenu')
+data.setCell(37, 2, 'Test.Bottomlinktest')
+data.setCell(37, 3, 5992);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'bottommenu')
+data.setCell(38, 2, 'Test.Bottomlinktest')
+data.setCell(38, 3, 5935);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Signuptest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.urltest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">brokencurrenturl</span>
+                <span class="method-start">2869 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">11143 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Signuptest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">15265 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signup(Arun1, , arun@gmail.com, Validation@246810, Validation@246810, 6.789012346E9, //p[normalize-space()=...)</span>
+                <span class="method-start">17682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">30378 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">30736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signup(Arun2, K, arun@gmail, Validation@246810, Validation@246810, 6.789012347E9, //p[normalize-space()='Pl...)</span>
+                <span class="method-start">33482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">52831 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">53013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signup(Arun3, K, arun@gmail.com, Validation@246810, Validation@246, 6.789012348E9, //p[normalize-space()='P...)</span>
+                <span class="method-start">55575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">69483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">69704 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signup(Arun4, K, arun@gmail.com, Va, Va, 6.789012349E9, //p[normalize-space()='Please enter a strong passwo...)</span>
+                <span class="method-start">72113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">97909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">98123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signup(Arun5, K, arun@gmail.com, Validation@246810, Validation@246810, 67890.0, //p[normalize-space()='Plea...)</span>
+                <span class="method-start">100572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">112726 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">113075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signup(Arun6, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012351E9, //p[normalize-space()...)</span>
+                <span class="method-start">115627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">169218 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">169485 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signup(Arun7, K, arun@gmail.com, , Validation@246810, 6.789012352E9, //p[normalize-space()='Please enter a ...)</span>
+                <span class="method-start">170812 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">182172 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">182488 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signup(Arun8, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012353E9, //strong[normalize-sp...)</span>
+                <span class="method-start">184702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">200045 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">200410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signup(, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012345E9, //p[normalize-space()='Ple...)</span>
+                <span class="method-start">202670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">214029 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Topmenutest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">215086 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">215086 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">215271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logintest(arun@gmail.com, , //p[normalize-space()='Please enter your password.'], Please enter your password.)</span>
+                <span class="method-start">217457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">229256 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">231051 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logintest(, Validation@246810, //p[normalize-space()='Please enter a valid email address.'], Please enter a va...)</span>
+                <span class="method-start">232245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">245134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">245478 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">logintest(arun@gmail.com, Validation@246810, //h1[.='Verify Your Account'], Verify Your Account)</span>
+                <span class="method-start">247071 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">296026 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">296293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logintest(arun@gmail.com, Validation@246810, //strong[normalize-space()='Sorry, something went wrong. Please t...)</span>
+                <span class="method-start">298780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">316413 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Topmenutest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">316788 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tomenu(//a[@class='utility-menu-flyout-list-item'][.='Credit Cards'][1], Best Buy Credit Card: Rewards & Fi...)</span>
+                <span class="method-start">318993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">346168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">346404 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tomenu(//a[@class='utility-menu-flyout-list-item'][.='Gift Cards'][1], Gifts Cards and E-Gift Cards - Best ...)</span>
+                <span class="method-start">348603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">375060 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">375327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tomenu(//a[@class='utility-menu-flyout-list-item'][.='Gift Ideas'][1], Gift Ideas 2024: Best Gifts to Give ...)</span>
+                <span class="method-start">377528 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">404571 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">404811 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tomenu((//a[normalize-space()='Best Buy Outlet'])[1], Best Buy Outlet: Clearance Electronics Outlet Store –...)</span>
+                <span class="method-start">406004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">417088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">418793 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tomenu((//a[.='Best Buy Business'])[1], Best Buy for Business - Best Buy)</span>
+                <span class="method-start">420939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">431300 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">431475 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tomenu((//a[@class='universal-nav-link'][normalize-space()='Connect with an Expert'])[1], Shop with an Expe...)</span>
+                <span class="method-start">433000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">444952 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">445173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tomenu(//span[.='Cart'], Cart - Best Buy)</span>
+                <span class="method-start">446339 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">456395 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">456616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tomenu((//a[normalize-space()='Top Deals'])[1], Best Buy Top Deals)</span>
+                <span class="method-start">458866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">478212 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">478453 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tomenu(//a[.='Deal of the Day'][1], Deal of the Day: Electronics Deals - Best Buy)</span>
+                <span class="method-start">479792 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">490782 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">492489 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tomenu(//a[.='Yes, Best Buy Sells That'][1], Yes, Best Buy Sells That – Best Buy)</span>
+                <span class="method-start">494824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">506301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">506506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tomenu((//a[@class='bottom-left-links '][.='My Best Buy Memberships'])[1], My Best Buy Memberships)</span>
+                <span class="method-start">508136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">518902 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Bottomlinktest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">519219 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">519390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bottommenu(//a[normalize-space()='Accessibility'], Accessibility - Best Buy)</span>
+                <span class="method-start">521107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">527099 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">527286 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bottommenu(//a[normalize-space()='Terms & Conditions'], BestBuy.com Terms and Conditions)</span>
+                <span class="method-start">529624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">535560 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">535717 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bottommenu(//a[normalize-space()='Privacy'], Privacy Policy Hub - Best Buy)</span>
+                <span class="method-start">537491 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">545994 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">546124 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bottommenu(//a[normalize-space()='Interest-Based Ads'], Interest-Based Ads - Best Buy)</span>
+                <span class="method-start">548586 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">554863 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">555017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bottommenu(//a[normalize-space()='State Privacy Rights'], State Privacy Rights - Best Buy)</span>
+                <span class="method-start">556595 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">563649 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">563797 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bottommenu(//a[normalize-space()='Health Data Privacy'], Health Data Privacy Information - Best Buy)</span>
+                <span class="method-start">565289 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">571922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">572052 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bottommenu(//a[normalize-space()='Do Not Sell/Share My Personal Information'], Start Request - Best Buy)</span>
+                <span class="method-start">573864 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">580066 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">580212 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bottommenu(//a[normalize-space()='Limit Use of My Sensitive Personal Information'], Best Buy)</span>
+                <span class="method-start">581721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">588643 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">588799 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bottommenu(//a[normalize-space()='Targeted Advertising Opt Out'], Start Request - Best Buy)</span>
+                <span class="method-start">590318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">596411 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">596563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bottommenu(//a[normalize-space()='CA Supply Chain Transparency Act'], California Supply Chain Transparency Act ...)</span>
+                <span class="method-start">599182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">606739 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Searchbtncarttest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">606886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addtocart</span>
+                <span class="method-start">609037 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">641165 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Selectbydepartmenttest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">641381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addtocart</span>
+                <span class="method-start">642611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">673610 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Selectbybrandtest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">673846 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">brandproduvtselect</span>
+                <span class="method-start">675081 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">697142 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Checkouttest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">before(Chrome)</span>
+                <span class="method-start">697395 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkout</span>
+                <span class="method-start">699696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after</span>
+                <span class="method-start">741420 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

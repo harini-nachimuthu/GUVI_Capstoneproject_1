@@ -1,0 +1,1683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="39" passed="36" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-21T16:16:53 IST" name="Suite" finished-at="2024-09-21T16:28:42 IST" duration-ms="708339">
+    <groups>
+      <group name="regression">
+        <method signature="urltest.brokencurrenturl()[pri:1, instance:Test.urltest@2766ca9d]" name="brokencurrenturl" class="Test.urltest"/>
+        <method signature="Signuptest.signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Test.Signuptest@47f9738]" name="signup" class="Test.Signuptest"/>
+        <method signature="LoginTest.logintest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:Test.LoginTest@4982cc36]" name="logintest" class="Test.LoginTest"/>
+        <method signature="Topmenutest.tomenu(java.lang.String,java.lang.String)[pri:4, instance:Test.Topmenutest@691939c9]" name="tomenu" class="Test.Topmenutest"/>
+        <method signature="Bottomlinktest.bottommenu(java.lang.String,java.lang.String)[pri:5, instance:Test.Bottomlinktest@22295ec4]" name="bottommenu" class="Test.Bottomlinktest"/>
+        <method signature="Searchbtncarttest.addtocart()[pri:6, instance:Test.Searchbtncarttest@5adb0db3]" name="addtocart" class="Test.Searchbtncarttest"/>
+        <method signature="Selectbydepartmenttest.addtocart()[pri:7, instance:Test.Selectbydepartmenttest@5dcd8c7a]" name="addtocart" class="Test.Selectbydepartmenttest"/>
+        <method signature="Selectbybrandtest.brandproduvtselect()[pri:8, instance:Test.Selectbybrandtest@2250b9f2]" name="brandproduvtselect" class="Test.Selectbybrandtest"/>
+        <method signature="Checkouttest.checkout()[pri:8, instance:Test.Checkouttest@41d426b5]" name="checkout" class="Test.Checkouttest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2024-09-21T16:16:53 IST" name="Test1" finished-at="2024-09-21T16:19:50 IST" duration-ms="176599">
+      <class name="Test.urltest">
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.urltest@2766ca9d]" started-at="2024-09-21T16:16:53 IST" name="before" finished-at="2024-09-21T16:16:55 IST" duration-ms="1893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="brokencurrenturl()[pri:1, instance:Test.urltest@2766ca9d]" started-at="2024-09-21T16:16:55 IST" name="brokencurrenturl" description="Checking url is broken or not" finished-at="2024-09-21T16:17:05 IST" duration-ms="9279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokencurrenturl -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.urltest@2766ca9d]" started-at="2024-09-21T16:17:05 IST" name="after" finished-at="2024-09-21T16:17:05 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Test.urltest -->
+      <class name="Test.Signuptest">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:16:53 IST" name="beforetest" finished-at="2024-09-21T16:16:53 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:17:07 IST" name="before" finished-at="2024-09-21T16:17:09 IST" duration-ms="1953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:17:09 IST" name="signup" description="Signup Test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:17:21 IST" duration-ms="11522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6.789012346E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//p[normalize-space()='Please enter your last name.']]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Please enter your last name.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:17:21 IST" name="after" finished-at="2024-09-21T16:17:22 IST" duration-ms="1711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:17:22 IST" name="before" finished-at="2024-09-21T16:17:24 IST" duration-ms="1391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:17:24 IST" name="signup" description="Signup Test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:17:36 IST" duration-ms="12468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun@gmail]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6.789012347E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//p[normalize-space()='Please enter a valid email address.']]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Please enter a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:17:36 IST" name="after" finished-at="2024-09-21T16:17:37 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:17:37 IST" name="before" finished-at="2024-09-21T16:17:39 IST" duration-ms="2357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:17:39 IST" name="signup" description="Signup Test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:17:50 IST" duration-ms="11251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Validation@246]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6.789012348E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//p[normalize-space()='Passwords do not match.']]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Passwords do not match.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:17:50 IST" name="after" finished-at="2024-09-21T16:17:51 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:17:51 IST" name="before" finished-at="2024-09-21T16:17:53 IST" duration-ms="2308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:17:53 IST" name="signup" description="Signup Test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:18:05 IST" duration-ms="12197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Va]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Va]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6.789012349E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//p[normalize-space()='Please enter a strong password.']]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Please enter a strong password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:18:05 IST" name="after" finished-at="2024-09-21T16:18:05 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:18:05 IST" name="before" finished-at="2024-09-21T16:18:07 IST" duration-ms="1626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:18:07 IST" name="signup" description="Signup Test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:18:17 IST" duration-ms="10051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[67890.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//p[normalize-space()='Please enter a valid mobile phone number.']]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Please enter a valid mobile phone number.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:18:17 IST" name="after" finished-at="2024-09-21T16:18:18 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:18:18 IST" name="before" finished-at="2024-09-21T16:18:19 IST" duration-ms="1110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:18:19 IST" name="signup" description="Signup Test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:19:09 IST" duration-ms="50565" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6.789012351E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//p[normalize-space()='Please enter a valid email address.']]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Please enter a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()='Please enter a valid email address.'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49152}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49152/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 619f2f177ef4df5a8d9956a52d9fe419]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()='Please enter a valid email address.'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49152}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49152/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 619f2f177ef4df5a8d9956a52d9fe419
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Utility.utils.actandexpec(utils.java:174)
+at Test.Signuptest.signup(Signuptest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:19:09 IST" name="after" finished-at="2024-09-21T16:19:09 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:19:09 IST" name="before" finished-at="2024-09-21T16:19:11 IST" duration-ms="1262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:19:11 IST" name="signup" description="Signup Test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:19:22 IST" duration-ms="11051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6.789012352E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//p[normalize-space()='Please enter a strong password.']]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Please enter a strong password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:19:22 IST" name="after" finished-at="2024-09-21T16:19:22 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:19:22 IST" name="before" finished-at="2024-09-21T16:19:24 IST" duration-ms="1512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:19:24 IST" name="signup" description="Signup Test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:19:35 IST" duration-ms="11804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6.789012353E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//strong[normalize-space()='Sorry, there was a problem creating your account.']]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Sorry, there was a problem creating your account.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:19:35 IST" name="after" finished-at="2024-09-21T16:19:36 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:19:36 IST" name="before" finished-at="2024-09-21T16:19:37 IST" duration-ms="1202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="signup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:19:37 IST" name="signup" description="Signup Test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:19:50 IST" duration-ms="12494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6.789012345E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//p[normalize-space()='Please enter your first name.']]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Please enter your first name.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Signuptest@47f9738]" started-at="2024-09-21T16:19:50 IST" name="after" finished-at="2024-09-21T16:19:50 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Test.Signuptest -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-09-21T16:19:50 IST" name="Test2" finished-at="2024-09-21T16:24:31 IST" duration-ms="280833">
+      <class name="Test.Topmenutest">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:19:50 IST" name="beforetest" finished-at="2024-09-21T16:19:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:21:34 IST" name="before" finished-at="2024-09-21T16:21:35 IST" duration-ms="1743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="tomenu(java.lang.String,java.lang.String)[pri:4, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:21:35 IST" name="tomenu" description="Top buttons in url check" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:21:56 IST" duration-ms="20574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[@class='utility-menu-flyout-list-item'][.='Credit Cards'][1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Best Buy Credit Card: Rewards & Financing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tomenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:21:56 IST" name="after" finished-at="2024-09-21T16:21:56 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:21:56 IST" name="before" finished-at="2024-09-21T16:21:58 IST" duration-ms="1543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="tomenu(java.lang.String,java.lang.String)[pri:4, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:21:58 IST" name="tomenu" description="Top buttons in url check" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:22:18 IST" duration-ms="20628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[@class='utility-menu-flyout-list-item'][.='Gift Cards'][1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gifts Cards and E-Gift Cards - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tomenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:22:18 IST" name="after" finished-at="2024-09-21T16:22:19 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:22:19 IST" name="before" finished-at="2024-09-21T16:22:20 IST" duration-ms="1377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="tomenu(java.lang.String,java.lang.String)[pri:4, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:22:20 IST" name="tomenu" description="Top buttons in url check" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:22:42 IST" duration-ms="21778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[@class='utility-menu-flyout-list-item'][.='Gift Ideas'][1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gift Ideas 2024: Best Gifts to Give This Year - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tomenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:22:42 IST" name="after" finished-at="2024-09-21T16:22:42 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:22:42 IST" name="before" finished-at="2024-09-21T16:22:43 IST" duration-ms="1581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="tomenu(java.lang.String,java.lang.String)[pri:4, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:22:43 IST" name="tomenu" description="Top buttons in url check" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:22:54 IST" duration-ms="10725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[(//a[normalize-space()='Best Buy Outlet'])[1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Best Buy Outlet: Clearance Electronics Outlet Store – Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tomenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:22:54 IST" name="after" finished-at="2024-09-21T16:22:54 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:22:54 IST" name="before" finished-at="2024-09-21T16:22:56 IST" duration-ms="1313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="tomenu(java.lang.String,java.lang.String)[pri:4, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:22:56 IST" name="tomenu" description="Top buttons in url check" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:23:07 IST" duration-ms="11446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[(//a[.='Best Buy Business'])[1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Best Buy for Business - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tomenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:23:07 IST" name="after" finished-at="2024-09-21T16:23:07 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:23:07 IST" name="before" finished-at="2024-09-21T16:23:09 IST" duration-ms="1480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="tomenu(java.lang.String,java.lang.String)[pri:4, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:23:09 IST" name="tomenu" description="Top buttons in url check" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:23:21 IST" duration-ms="12606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[(//a[@class='universal-nav-link'][normalize-space()='Connect with an Expert'])[1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shop with an Expert - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tomenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:23:21 IST" name="after" finished-at="2024-09-21T16:23:22 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:23:22 IST" name="before" finished-at="2024-09-21T16:23:23 IST" duration-ms="1917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="tomenu(java.lang.String,java.lang.String)[pri:4, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:23:23 IST" name="tomenu" description="Top buttons in url check" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:23:38 IST" duration-ms="14379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//span[.='Cart']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cart - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tomenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:23:38 IST" name="after" finished-at="2024-09-21T16:23:38 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:23:38 IST" name="before" finished-at="2024-09-21T16:23:40 IST" duration-ms="1565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="tomenu(java.lang.String,java.lang.String)[pri:4, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:23:40 IST" name="tomenu" description="Top buttons in url check" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:23:51 IST" duration-ms="11358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[(//a[normalize-space()='Top Deals'])[1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Best Buy Top Deals]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tomenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:23:51 IST" name="after" finished-at="2024-09-21T16:23:51 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:23:51 IST" name="before" finished-at="2024-09-21T16:23:54 IST" duration-ms="2559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="tomenu(java.lang.String,java.lang.String)[pri:4, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:23:54 IST" name="tomenu" description="Top buttons in url check" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:24:05 IST" duration-ms="11805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[.='Deal of the Day'][1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Deal of the Day: Electronics Deals - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tomenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:24:05 IST" name="after" finished-at="2024-09-21T16:24:06 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:24:06 IST" name="before" finished-at="2024-09-21T16:24:07 IST" duration-ms="1740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="tomenu(java.lang.String,java.lang.String)[pri:4, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:24:07 IST" name="tomenu" description="Top buttons in url check" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:24:18 IST" duration-ms="10996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[.='Yes, Best Buy Sells That'][1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes, Best Buy Sells That – Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tomenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:24:18 IST" name="after" finished-at="2024-09-21T16:24:19 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:24:19 IST" name="before" finished-at="2024-09-21T16:24:20 IST" duration-ms="1308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="tomenu(java.lang.String,java.lang.String)[pri:4, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:24:20 IST" name="tomenu" description="Top buttons in url check" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:24:31 IST" duration-ms="10971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[(//a[@class='bottom-left-links '][.='My Best Buy Memberships'])[1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My Best Buy Memberships]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tomenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Topmenutest@691939c9]" started-at="2024-09-21T16:24:31 IST" name="after" finished-at="2024-09-21T16:24:31 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Test.Topmenutest -->
+      <class name="Test.LoginTest">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Test.LoginTest@4982cc36]" started-at="2024-09-21T16:19:50 IST" name="beforetest" finished-at="2024-09-21T16:19:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.LoginTest@4982cc36]" started-at="2024-09-21T16:19:50 IST" name="before" finished-at="2024-09-21T16:19:53 IST" duration-ms="2669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="logintest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:Test.LoginTest@4982cc36]" started-at="2024-09-21T16:19:53 IST" name="logintest" description="Login test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:20:07 IST" duration-ms="14313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//p[normalize-space()='Please enter your password.']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter your password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.LoginTest@4982cc36]" started-at="2024-09-21T16:20:07 IST" name="after" finished-at="2024-09-21T16:20:08 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.LoginTest@4982cc36]" started-at="2024-09-21T16:20:08 IST" name="before" finished-at="2024-09-21T16:20:09 IST" duration-ms="1663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="logintest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:Test.LoginTest@4982cc36]" started-at="2024-09-21T16:20:09 IST" name="logintest" description="Login test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:20:22 IST" duration-ms="12217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//p[normalize-space()='Please enter a valid email address.']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.LoginTest@4982cc36]" started-at="2024-09-21T16:20:22 IST" name="after" finished-at="2024-09-21T16:20:22 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.LoginTest@4982cc36]" started-at="2024-09-21T16:20:22 IST" name="before" finished-at="2024-09-21T16:20:24 IST" duration-ms="1703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="logintest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:Test.LoginTest@4982cc36]" started-at="2024-09-21T16:20:24 IST" name="logintest" description="Login test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:21:13 IST" duration-ms="49789" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//h1[.='Verify Your Account']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Verify Your Account]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //h1[.='Verify Your Account'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50322/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 21ce8117c6ab522804c2b00a5c6827fb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h1[.='Verify Your Account'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50322/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 21ce8117c6ab522804c2b00a5c6827fb
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Utility.utils.actandexpec(utils.java:174)
+at Test.LoginTest.logintest(LoginTest.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.LoginTest@4982cc36]" started-at="2024-09-21T16:21:14 IST" name="after" finished-at="2024-09-21T16:21:14 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.LoginTest@4982cc36]" started-at="2024-09-21T16:21:14 IST" name="before" finished-at="2024-09-21T16:21:16 IST" duration-ms="2294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="logintest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:Test.LoginTest@4982cc36]" started-at="2024-09-21T16:21:16 IST" name="logintest" description="Login test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:21:33 IST" duration-ms="17431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Validation@246810]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//strong[normalize-space()='Sorry, something went wrong. Please try again.']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sorry, something went wrong. Please try again.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.LoginTest@4982cc36]" started-at="2024-09-21T16:21:33 IST" name="after" finished-at="2024-09-21T16:21:34 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Test.LoginTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-09-21T16:24:31 IST" name="Test3" finished-at="2024-09-21T16:26:27 IST" duration-ms="115648">
+      <class name="Test.Bottomlinktest">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:24:31 IST" name="beforetest" finished-at="2024-09-21T16:24:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:24:31 IST" name="before" finished-at="2024-09-21T16:24:33 IST" duration-ms="1385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="bottommenu(java.lang.String,java.lang.String)[pri:5, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:24:33 IST" name="bottommenu" description="Bottom buttons in url test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:24:40 IST" duration-ms="7144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[normalize-space()='Accessibility']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Accessibility - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottommenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:24:40 IST" name="after" finished-at="2024-09-21T16:24:40 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:24:40 IST" name="before" finished-at="2024-09-21T16:24:42 IST" duration-ms="1908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="bottommenu(java.lang.String,java.lang.String)[pri:5, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:24:42 IST" name="bottommenu" description="Bottom buttons in url test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:24:48 IST" duration-ms="6594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[normalize-space()='Terms & Conditions']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BestBuy.com Terms and Conditions]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottommenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:24:48 IST" name="after" finished-at="2024-09-21T16:24:48 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:24:48 IST" name="before" finished-at="2024-09-21T16:24:50 IST" duration-ms="1665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="bottommenu(java.lang.String,java.lang.String)[pri:5, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:24:50 IST" name="bottommenu" description="Bottom buttons in url test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:24:58 IST" duration-ms="7774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[normalize-space()='Privacy']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Privacy Policy Hub - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottommenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:24:58 IST" name="after" finished-at="2024-09-21T16:24:58 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:24:58 IST" name="before" finished-at="2024-09-21T16:25:00 IST" duration-ms="1637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="bottommenu(java.lang.String,java.lang.String)[pri:5, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:00 IST" name="bottommenu" description="Bottom buttons in url test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:25:07 IST" duration-ms="7294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[normalize-space()='Interest-Based Ads']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Interest-Based Ads - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottommenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:07 IST" name="after" finished-at="2024-09-21T16:25:07 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:07 IST" name="before" finished-at="2024-09-21T16:25:09 IST" duration-ms="1700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="bottommenu(java.lang.String,java.lang.String)[pri:5, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:09 IST" name="bottommenu" description="Bottom buttons in url test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:25:16 IST" duration-ms="7342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[normalize-space()='State Privacy Rights']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[State Privacy Rights - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottommenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:16 IST" name="after" finished-at="2024-09-21T16:25:16 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:16 IST" name="before" finished-at="2024-09-21T16:25:18 IST" duration-ms="1805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="bottommenu(java.lang.String,java.lang.String)[pri:5, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:18 IST" name="bottommenu" description="Bottom buttons in url test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:25:26 IST" duration-ms="7396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[normalize-space()='Health Data Privacy']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Health Data Privacy Information - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottommenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:26 IST" name="after" finished-at="2024-09-21T16:25:26 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:26 IST" name="before" finished-at="2024-09-21T16:25:27 IST" duration-ms="1598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="bottommenu(java.lang.String,java.lang.String)[pri:5, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:27 IST" name="bottommenu" description="Bottom buttons in url test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:25:34 IST" duration-ms="6680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[normalize-space()='Do Not Sell/Share My Personal Information']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Start Request - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottommenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:34 IST" name="after" finished-at="2024-09-21T16:25:34 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:34 IST" name="before" finished-at="2024-09-21T16:25:36 IST" duration-ms="1531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="bottommenu(java.lang.String,java.lang.String)[pri:5, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:36 IST" name="bottommenu" description="Bottom buttons in url test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:25:42 IST" duration-ms="6517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[normalize-space()='Limit Use of My Sensitive Personal Information']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottommenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:42 IST" name="after" finished-at="2024-09-21T16:25:42 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:42 IST" name="before" finished-at="2024-09-21T16:25:45 IST" duration-ms="2642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="bottommenu(java.lang.String,java.lang.String)[pri:5, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:45 IST" name="bottommenu" description="Bottom buttons in url test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:25:52 IST" duration-ms="6586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[normalize-space()='Targeted Advertising Opt Out']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Start Request - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottommenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:52 IST" name="after" finished-at="2024-09-21T16:25:52 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:52 IST" name="before" finished-at="2024-09-21T16:25:53 IST" duration-ms="1454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="bottommenu(java.lang.String,java.lang.String)[pri:5, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:25:53 IST" name="bottommenu" description="Bottom buttons in url test" data-provider="Readingdatasfromexcelsheet" finished-at="2024-09-21T16:26:00 IST" duration-ms="6853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//a[normalize-space()='CA Supply Chain Transparency Act']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[California Supply Chain Transparency Act - Best Buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottommenu -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Bottomlinktest@22295ec4]" started-at="2024-09-21T16:26:00 IST" name="after" finished-at="2024-09-21T16:26:00 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Test.Bottomlinktest -->
+      <class name="Test.Searchbtncarttest">
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Searchbtncarttest@5adb0db3]" started-at="2024-09-21T16:26:00 IST" name="before" finished-at="2024-09-21T16:26:02 IST" duration-ms="1659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="addtocart()[pri:6, instance:Test.Searchbtncarttest@5adb0db3]" started-at="2024-09-21T16:26:02 IST" name="addtocart" description="Searching items are added to cart" finished-at="2024-09-21T16:26:27 IST" duration-ms="24607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Searchbtncarttest@5adb0db3]" started-at="2024-09-21T16:26:27 IST" name="after" finished-at="2024-09-21T16:26:27 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Test.Searchbtncarttest -->
+    </test> <!-- Test3 -->
+    <test started-at="2024-09-21T16:26:27 IST" name="Test4" finished-at="2024-09-21T16:28:06 IST" duration-ms="99155">
+      <class name="Test.Selectbybrandtest">
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Selectbybrandtest@2250b9f2]" started-at="2024-09-21T16:26:52 IST" name="before" finished-at="2024-09-21T16:26:54 IST" duration-ms="1440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="brandproduvtselect()[pri:8, instance:Test.Selectbybrandtest@2250b9f2]" started-at="2024-09-21T16:26:54 IST" name="brandproduvtselect" description="Searching product by brand and adding them to cart" finished-at="2024-09-21T16:28:05 IST" duration-ms="71606" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (c6264bd5cbf9c63bda58b6e97f3a44f9)] -> xpath: //a[.='Sony - 65" Class BRAVIA XR A80L OLED 4K UHD Smart Google TV (2023)']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53382}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53382/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6264bd5cbf9c63bda58b6e97f3a44f9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (c6264bd5cbf9c63bda58b6e97f3a44f9)] -> xpath: //a[.='Sony - 65" Class BRAVIA XR A80L OLED 4K UHD Smart Google TV (2023)']] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53382}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53382/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6264bd5cbf9c63bda58b6e97f3a44f9
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Utility.utils.xpathvisibleclick(utils.java:206)
+at Page.Searchbtnandcartpage.TV(Searchbtnandcartpage.java:69)
+at Test.Selectbybrandtest.brandproduvtselect(Selectbybrandtest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brandproduvtselect -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Selectbybrandtest@2250b9f2]" started-at="2024-09-21T16:28:06 IST" name="after" finished-at="2024-09-21T16:28:06 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Test.Selectbybrandtest -->
+      <class name="Test.Selectbydepartmenttest">
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Selectbydepartmenttest@5dcd8c7a]" started-at="2024-09-21T16:26:27 IST" name="before" finished-at="2024-09-21T16:26:28 IST" duration-ms="1534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="addtocart()[pri:7, instance:Test.Selectbydepartmenttest@5dcd8c7a]" started-at="2024-09-21T16:26:28 IST" name="addtocart" description="Searching product through department and adding them to cart" finished-at="2024-09-21T16:26:52 IST" duration-ms="23994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Selectbydepartmenttest@5dcd8c7a]" started-at="2024-09-21T16:26:52 IST" name="after" finished-at="2024-09-21T16:26:52 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Test.Selectbydepartmenttest -->
+    </test> <!-- Test4 -->
+    <test started-at="2024-09-21T16:28:06 IST" name="Test5" finished-at="2024-09-21T16:28:42 IST" duration-ms="35750">
+      <class name="Test.Checkouttest">
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:Test.Checkouttest@41d426b5]" started-at="2024-09-21T16:28:06 IST" name="before" finished-at="2024-09-21T16:28:07 IST" duration-ms="1404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="checkout()[pri:8, instance:Test.Checkouttest@41d426b5]" started-at="2024-09-21T16:28:07 IST" name="checkout" description="Searching product through department and adding them to cart" finished-at="2024-09-21T16:28:42 IST" duration-ms="34345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method is-config="true" signature="after()[pri:0, instance:Test.Checkouttest@41d426b5]" started-at="2024-09-21T16:28:42 IST" name="after" finished-at="2024-09-21T16:28:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Test.Checkouttest -->
+    </test> <!-- Test5 -->
+  </suite> <!-- Suite -->
+</testng-results>
