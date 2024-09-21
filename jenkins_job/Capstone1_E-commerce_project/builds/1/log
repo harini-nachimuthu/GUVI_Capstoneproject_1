@@ -1,0 +1,480 @@
+Started by user [8mha:////4Mlq0z94An+1LiOdL2vjg+dpVV6DkYz8bMyNsznyoRoaAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/dLi1CL9jESg9sy8xOSMzNzSkoxSADe/qiHLAAAA[0mHariniNachimuthu
+Running as SYSTEM
+Building in workspace C:\Users\harin\.jenkins\workspace\Capstone1_E-commerce_project
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.9.9/apache-maven-3.9.9-bin.zip to C:\Users\harin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven on Jenkins
+The recommended git tool is: NONE
+using credential 1dd15a64-74cd-4ec1-9366-29082564b317
+Cloning the remote Git repository
+Cloning repository https://github.com/harini-nachimuthu/GUVI_Capstoneproject_1
+ > git.exe init C:\Users\harin\.jenkins\workspace\Capstone1_E-commerce_project # timeout=10
+Fetching upstream changes from https://github.com/harini-nachimuthu/GUVI_Capstoneproject_1
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.45.2.windows.1'
+using GIT_ASKPASS to set credentials 
+ > git.exe fetch --tags --force --progress -- https://github.com/harini-nachimuthu/GUVI_Capstoneproject_1 +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/harini-nachimuthu/GUVI_Capstoneproject_1 # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision a848f5ce9c4a94af9da5cf5922c27143d2157caa (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f a848f5ce9c4a94af9da5cf5922c27143d2157caa # timeout=10
+Commit message: "Added Bestbuy E-commerce project"
+First time build. Skipping changelog.
+[Capstone1_E-commerce_project] $ cmd.exe /C "C:\Users\harin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven\bin\mvn.cmd clean install test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< Capstone_1:Capstone_1 >------------------------
+[INFO] Building Capstone_1 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.2/maven-install-plugin-3.1.2.pom
+Progress (1): 1.4/8.5 kBProgress (1): 2.8/8.5 kBProgress (1): 4.1/8.5 kBProgress (1): 5.5/8.5 kBProgress (1): 6.9/8.5 kBProgress (1): 8.3/8.5 kBProgress (1): 8.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.2/maven-install-plugin-3.1.2.pom (8.5 kB at 29 kB/s)
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Capstone_1 ---
+[INFO] Deleting C:\Users\harin\.jenkins\workspace\Capstone1_E-commerce_project\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Capstone_1 ---
+[8mha:////4HUx8KnjRladQZli4v3giZh8dYtx2GqjLi4tgDswpT6cAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\harin\.jenkins\workspace\Capstone1_E-commerce_project\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ Capstone_1 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Capstone_1 ---
+[8mha:////4HUx8KnjRladQZli4v3giZh8dYtx2GqjLi4tgDswpT6cAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\harin\.jenkins\workspace\Capstone1_E-commerce_project\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ Capstone_1 ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4HUx8KnjRladQZli4v3giZh8dYtx2GqjLi4tgDswpT6cAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 21 source files to C:\Users\harin\.jenkins\workspace\Capstone1_E-commerce_project\target\test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0-M5:test (default-test) @ Capstone_1 ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:52:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:52:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Title of page: Best Buy International: Select your Country - Best Buy
+Url of page: https://www.bestbuy.com/
+Working URL: https://www.bestbuy.com/ (Response message :   OK)
+Given URL is not a broken URL.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:52:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:52:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Test Passed: Actual text: Please enter your last name. | Expected text: Please enter your last name.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:52:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:52:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Test Passed: Actual text: Please enter a valid email address. | Expected text: Please enter a valid email address.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:52:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:52:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Test Passed: Actual text: Passwords do not match. | Expected text: Passwords do not match.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:53:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:53:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Test Passed: Actual text: Please enter a strong password. | Expected text: Please enter a strong password.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:53:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:53:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Test Passed: Actual text: Please enter a valid mobile phone number. | Expected text: Please enter a valid mobile phone number.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:54:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:54:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+ScreenshotC:\Users\harin\eclipse-workspace\Capstone_1\Screenshots\signup_Chrome_2024-09-21_17-55-01.png
+C:\Users\harin\eclipse-workspace\Capstone_1\Screenshots\signup_Chrome_2024-09-21_17-55-01.png
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:55:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:55:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Test Passed: Actual text: Please enter a strong password. | Expected text: Please enter a strong password.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:55:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:55:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+ScreenshotC:\Users\harin\eclipse-workspace\Capstone_1\Screenshots\signup_Chrome_2024-09-21_17-56-11.png
+C:\Users\harin\eclipse-workspace\Capstone_1\Screenshots\signup_Chrome_2024-09-21_17-56-11.png
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:56:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:56:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Test Passed: Actual text: Please enter your first name. | Expected text: Please enter your first name.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:56:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:56:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Test Passed: Actual text: Please enter your password. | Expected text: Please enter your password.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:56:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:56:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Test Passed: Actual text: Please enter a valid email address. | Expected text: Please enter a valid email address.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:57:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:57:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+ScreenshotC:\Users\harin\eclipse-workspace\Capstone_1\Screenshots\logintest_Chrome_2024-09-21_17-57-54.png
+C:\Users\harin\eclipse-workspace\Capstone_1\Screenshots\logintest_Chrome_2024-09-21_17-57-54.png
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:57:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:57:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Test Passed: Actual text: Sorry, something went wrong. Please try again. | Expected text: Sorry, something went wrong. Please try again.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:58:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:58:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Best Buy Credit Card: Rewards & Financing
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:58:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:58:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Gifts Cards and E-Gift Cards - Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:59:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:59:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Gift Ideas 2024: Best Gifts to Give This Year - Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:59:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:59:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Best Buy Outlet: Clearance Electronics Outlet Store – Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 5:59:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 5:59:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Best Buy for Business - Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:00:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:00:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Shop with an Expert - Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:00:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:00:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Cart - Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:00:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:00:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Best Buy Top Deals
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:00:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:00:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Deal of the Day: Electronics Deals - Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:01:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:01:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Yes, Best Buy Sells That – Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:01:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:01:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : My Best Buy Memberships
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:01:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:01:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Accessibility - Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:01:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:01:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : BestBuy.com Terms and Conditions
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:01:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:01:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Privacy Policy Hub - Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:02:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:02:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Interest-Based Ads - Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:02:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:02:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : State Privacy Rights - Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:02:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:02:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Health Data Privacy Information - Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:02:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:02:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Start Request - Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:02:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:02:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:02:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:02:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : Start Request - Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:02:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:02:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Actual heading is matching Expected heading and the heading is : California Supply Chain Transparency Act - Best Buy
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:03:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:03:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Title of the page is : Lenovo Yoga Slim 7x Copilot+ PC 14.5" 3K OLED Touch-Screen Laptop Snapdragon X Elite 16GB Memory 512GB SSD Cosmic Blue 83ED0001US - Best Buy
+Added to cart : Lenovo
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:03:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:03:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Title of the page is : Omron 3 Series Automatic Upper Arm Blood Pressure Monitor Black/White BP7100 - Best Buy
+Added to cart : Omron BP machine
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:04:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:04:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Title of the page is : Sony 65" Class BRAVIA XR A80L OLED 4K UHD Smart Google TV (2023) XR65A80L - Best Buy
+Added to cart : TV
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+Sep 21, 2024 6:04:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 21, 2024 6:04:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Driver initialized: true
+Selected United States.
+Title of the page is : LG TONE Free Fit TF8Q True Wireless Noise Cancelling In-Ear Earbuds Black TF8Q - Best Buy
+Added to cart : LG earpods
+This item is no longer available for shipping.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Tests run: 39, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 790.087 s <<< FAILURE! - in TestSuite
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Test.Signuptest.signup[Arun6, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012351E9, //p[normalize-space()='Please enter a valid email address.'], Please enter a valid email address.](6)  Time elapsed: 53.456 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()='Please enter a valid email address.'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55164}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55164/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2946521ba812a8676eefdd615f8f87d
+	at Test.Signuptest.signup(Signuptest.java:30)
+
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Test.Signuptest.signup[Arun8, K, arun@gmail.com, Validation@246810, Validation@246810, 6.789012353E9, //strong[normalize-space()='Sorry, there was a problem creating your account.'], Sorry, there was a problem creating your account.](8)  Time elapsed: 52.055 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //strong[normalize-space()='Sorry, there was a problem creating your account.'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55386}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55386/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 00f06466591a70b95b563de544dcc81f
+	at Test.Signuptest.signup(Signuptest.java:30)
+
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Test.LoginTest.logintest[arun@gmail.com, Validation@246810, //h1[.='Verify Your Account'], Verify Your Account](3)  Time elapsed: 50.696 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //h1[.='Verify Your Account'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56859/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c29c292931f0430a419c3b644f6e9d3a
+	at Test.LoginTest.logintest(LoginTest.java:33)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Failures: 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR]   LoginTest.logintest:33->utils.actandexpec:174 » Timeout Expected condition fai...
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR]   Signuptest.signup:30->utils.actandexpec:174 » Timeout Expected condition faile...
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR]   Signuptest.signup:30->utils.actandexpec:174 » Timeout Expected condition faile...
+[INFO] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Tests run: 39, Failures: 3, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13:15 min
+[INFO] Finished at: 2024-09-21T18:05:13+05:30
+[INFO] ------------------------------------------------------------------------
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project Capstone_1: There are test failures.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Please refer to C:\Users\harin\.jenkins\workspace\Capstone1_E-commerce_project\target\surefire-reports for the individual test results.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] -> [Help 1]
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke top-level Maven targets' marked build as failure
+An attempt to send an e-mail to empty list of recipients, ignored.
+Finished: FAILURE
